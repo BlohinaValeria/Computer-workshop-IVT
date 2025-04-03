@@ -52,4 +52,5 @@ if __name__ == '__main__':
 # POST запрос в Insomnia
 ![пост запрос](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%206/test.png)
   
-
+# Ссылка 
+(https://e15b1ecc-cea0-469e-9d46-3a70a6f66586-00-2jiuziqs4l4at.pike.replit.dev/login)
