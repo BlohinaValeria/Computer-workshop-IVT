@@ -47,9 +47,9 @@ if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=8080)
   ```
 # Борд в Replit
-[скриншот](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%206/replit.png)
+![скриншот](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%206/replit.png)
 
 # POST запрос в Insomnia
-[пост запрос](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%206/test.png)
+![пост запрос](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%206/test.png)
   
 
