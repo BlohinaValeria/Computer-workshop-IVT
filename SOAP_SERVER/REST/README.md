@@ -23,47 +23,20 @@
 + Создайте Resource:
 ![resource](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/REST/url.png)
 
-+ 
-# Код программы
-  ```python
-from flask import Flask, request, jsonify
-from PIL import Image
-import io
++ TestSuit:
+![suit](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/REST/test%20suite.png)
 
-app = Flask(__name__)
++ TestCase
+![case](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/REST/test%20case.png)
 
-MY_LOGIN = "1147331" 
++ REST Request 
+![restrequest](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/REST/rest%20request.png)
 
-@app.route("/size2json", methods=['POST'])
-def size2json():
-    if 'image' not in request.files:
-        return jsonify({"result": "no file part"}), 400
++ Проверка Rest 1
+![проверка](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/REST/проверка_json_ответ.png)
 
-    image_file = request.files['image']
-    if image_file.filename == '':
-        return jsonify({"result": "no selected file"}), 400
++ Проверка Rest 2
+![проверка2](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/REST/проверка_2_шаг.png)
 
-    try:
-        img = Image.open(io.BytesIO(image_file.read()))
-        width, height = img.size
-        return jsonify({"width": width, "height": height}), 200
-    except Exception as e:
-        print(e)
-        return jsonify({"result": "invalid filetype"}), 400
-
-
-@app.route("/login")
-def login():
-    return jsonify({"author": MY_LOGIN}), 200
-
-if __name__ == '__main__':
-    app.run(debug=True, host="0.0.0.0", port=8080)
-  ```
-# Борд в Replit
-![скриншот](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%206/replit.png)
-
-# POST запрос в Insomnia
-![пост запрос](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%206/test.png)
-  
-# Ссылка 
-https://e15b1ecc-cea0-469e-9d46-3a70a6f66586-00-2jiuziqs4l4at.pike.replit.dev/login
+# Результат: 
+![итог](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/REST/итог.png)
