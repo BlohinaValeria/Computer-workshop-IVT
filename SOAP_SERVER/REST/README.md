@@ -29,13 +29,13 @@
 + TestCase
 ![case](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/REST/test%20case.png)
 
-+ REST Request 
++ Rest Request 
 ![restrequest](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/REST/rest%20request.png)
 
-+ Проверка Rest 1
++ Проверка Rest Request step 1
 ![проверка](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/REST/проверка_json_ответ.png)
 
-+ Проверка Rest 2
++ Проверка Rest Request step 2
 ![проверка2](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/REST/проверка_2_шаг.png)
 
 # Результат: 
