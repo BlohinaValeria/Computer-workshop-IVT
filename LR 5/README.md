@@ -51,9 +51,9 @@ _Структура файлов_
 
 _Файл data.json_
 
-![файл](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%205/datajson.png)
-
+![](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%205/datajson2.png)
 
 _Ответ хоста_
 
+![](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%205/datajson.png)
 ![](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%205/1.png)
