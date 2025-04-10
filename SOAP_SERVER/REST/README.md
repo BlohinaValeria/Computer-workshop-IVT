@@ -17,9 +17,13 @@
 - [ ] URL -адрес: https://catfact.ninja/fact
 
 
-_Создание проекта в SoapUI :_ 
++ Создание проекта в SoapUI: 
 ![создание](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/REST/название%20и%20создание.png)
 
++ Создайте Resource:
+![resource](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/REST/url.png)
+
++ 
 # Код программы
   ```python
 from flask import Flask, request, jsonify
