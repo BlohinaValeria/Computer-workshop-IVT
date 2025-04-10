@@ -13,11 +13,11 @@
 2. Конвертация этой температуры в Фаренгейты с помощью SOAP-сервиса.
 3. Проверка, что результат конвертации соответствует ожидаемому значению.
 
-+ Создание проекта:
+:small_orange_diamond: Создание проекта:
   
 ![создание](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/стары_%20SOAP_сервисы/name.png)
 
-+ Создание TestSuite и TestCase
+:small_orange_diamond: Создание TestSuite и TestCase
   
 * TestSuite
 
@@ -31,7 +31,7 @@
 
 ![Отображение](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/стары_%20SOAP_сервисы/step%202.2.png)
 
-+ Добавление шагов в TestCase
+:small_orange_diamond: Добавление шагов в TestCase
 
 * Конвертация температуры
 
