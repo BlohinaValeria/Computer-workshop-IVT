@@ -17,11 +17,8 @@
 - [ ] URL -адрес: https://catfact.ninja/fact
 
 
-_Требования:_ 
-
-+ Все данные возвращаются в json, заголовки ответов должны быть соответствующие данным.
-+ Формат ответа по маршруту /login {"author": "__ваш логин__"}
-+ Если передана не картинка, возвращать json: {"result":"invalid filetype"}
+_Создание проекта в SoapUI :_ 
+![создание](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/SOAP_SERVER/REST/название%20и%20создание.png)
 
 # Код программы
   ```python
