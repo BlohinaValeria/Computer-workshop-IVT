@@ -74,25 +74,7 @@ https://functions.yandexcloud.net/d4ermk9vp1q3jt0pi37n
             }
 
 :triangular_flag_on_post: описание API Gateway и скриншот:
+![](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%207/api.png)
 
-    ![](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%207/api.png)
-    
-    Спецификация
-
-    ```yaml
-    openapi: 3.0.0
-    info:
-      title: Sample API
-      version: 1.0.0
-    servers:
-      - url: https://d5dn5fe519oia6gu5ugm.pdkwbi1w.apigw.yandexcloud.net
-    paths:
-      /:
-        post:
-          x-yc-apigateway-integration:
-            type: cloud_functions
-            function_id: d4ermk9vp1q3jt0pi37n
-          operationId: tgbot
-    ```
   :triangular_flag_on_post:  ник Telegram-бота.
     @translatecomppr_bot
