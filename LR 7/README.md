@@ -8,8 +8,8 @@
 
 :triangular_flag_on_post: адрес Cloud Function и скриншот кода функции;
     [https://console.yandex.cloud/folders/b1ghk1a0138d8c8afluq/functions/functions/d4ermk9vp1q3jt0pi37n/overview](https://console.yandex.cloud/folders/b1ghk1a0138d8c8afluq/functions/functions/d4ermk9vp1q3jt0pi37n/overview)
-
-    ```python
+![]()
+    ```
     import json
     import requests
     import telebot
@@ -73,6 +73,8 @@
     ```
 
 :triangular_flag_on_post: описание API Gateway и скриншот;
+    ![]()
+    
     Спецификация
 
     ```yaml
