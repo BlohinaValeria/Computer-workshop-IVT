@@ -24,6 +24,9 @@
 :small_orange_diamond:[перейти](https://github.com/BlohinaValeria/Computer-workshop-IVT/tree/main/LR%205)
 
 ## :white_check_mark: Тема 7 - Yandex Cloud Functions
-### Ключевые слова: telegrambot / API Gateway / Cloud Functions
-:small_orange_diamond:[перейти](https://github.com/BlohinaValeria/Computer-workshop-IVT/tree/main/LR%206)
+### Ключевые слова: API Gateway / Cloud Functions
+:small_orange_diamond:[перейти](https://github.com/BlohinaValeria/Computer-workshop-IVT/tree/main/LR%207)
 
+## :white_check_mark: Тема 8 - Отправка файлов на сервер. Метаданные
+### Ключевые слова: JSON / Flask / POST-запрос
+:small_orange_diamond:[перейти](https://github.com/BlohinaValeria/Computer-workshop-IVT/tree/main/LR%206)
