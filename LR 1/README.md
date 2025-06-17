@@ -83,15 +83,15 @@ uses: actions/deploy-pages@v4
 2. Разрешения (permissions): Дает workflow права на чтениеконтента репозитория и запись на GitHub Pages.
 3. Параллельность (concurrency): Позволяет только одномуразвертыванию за раз, но не отменяет текущее развертывание.
 4. Работа со сборкой (build job):
-   :wavy_dash: Окружение (env): Определяет версию Hugo для использования.
-   :wavy_dash: Установка Hugo: Скачивает и устанавливает HugoCLI (Command Line Interface).
-   :wavy_dash: Установка Dart Sass: Устанавливает Dart Sass (используется для обработки CSS).
-   :wavy_dash: Извлечение кода (Checkout): Извлекает исходныйкодсайта, включая подмодули (например, темы).
-   :wavy_dash: Настройка Pages (Setup Pages): Настраивает GitHubPages.
-   :wavy_dash: Установка Node.js зависимостей (Install Node.js dependencies): Устанавливает зависимости Node.js, еслиони есть.
-   :wavy_dash: Сборка с Hugo (Build with Hugo): запускает Hugo для сборки сайта с оптимизацией(--minify) и указанием базового URL.
-   :wavy_dash: Загрузка артефакта (Upload artifact): Загружает сгенерированный сайт (из папки public) в качестве артефакта.
-   :wavy_dash: Работа с развертыванием (deploy job):
-   :heavy_minus_sign: Окружение (environment): Определяет окружение GitHub Pages и URL сайта.
-   :heavy_minus_sign: Зависимость (needs): Зависит от успешного завершениязадачи build.
-   :heavy_minus_sign: Развертывание на GitHub Pages (Deploy to GitHubPages): Развертывает артефакт на GitHub Pages.
+:wavy_dash: Окружение (env): Определяет версию Hugo для использования.
+:wavy_dash: Установка Hugo: Скачивает и устанавливает HugoCLI (Command Line Interface).
+:wavy_dash: Установка Dart Sass: Устанавливает Dart Sass (используется для обработки CSS).
+:wavy_dash: Извлечение кода (Checkout): Извлекает исходныйкодсайта, включая подмодули (например, темы).
+:wavy_dash: Настройка Pages (Setup Pages): Настраивает GitHubPages.
+:wavy_dash: Установка Node.js зависимостей (Install Node.js dependencies): Устанавливает зависимости Node.js, еслиони есть.
+:wavy_dash: Сборка с Hugo (Build with Hugo): запускает Hugo для сборки сайта с оптимизацией(--minify) и указанием базового URL.
+:wavy_dash: Загрузка артефакта (Upload artifact): Загружает сгенерированный сайт (из папки public) в качестве артефакта.
+:wavy_dash: Работа с развертыванием (deploy job):
+:heavy_minus_sign: Окружение (environment): Определяет окружение GitHub Pages и URL сайта.
+:heavy_minus_sign: Зависимость (needs): Зависит от успешного завершениязадачи build.
+:heavy_minus_sign: Развертывание на GitHub Pages (Deploy to GitHubPages): Развертывает артефакт на GitHub Pages.
