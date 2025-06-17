@@ -11,7 +11,8 @@
 
 ## Ссылка на сайт:
 [перейти](https://blohinavaleria.github.io/web-portfolio/)
-Задание: скрипт для развертывания Hugo с помощью GitHubActions.
+
+## Задание: скрипт для развертывания Hugo с помощью GitHubActions.
 ```
 # Sample workflow for building and deploying a Hugo site to GitHubPages
 name: Deploy Hugo site to Pages
