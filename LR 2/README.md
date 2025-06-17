@@ -104,4 +104,4 @@
 </html>
 ```
 ## Итоговый сайт:
-![]()
+![](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%202/сайт.png?raw=true)
