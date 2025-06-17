@@ -84,14 +84,23 @@ uses: actions/deploy-pages@v4
 3. Параллельность (concurrency): Позволяет только одномуразвертыванию за раз, но не отменяет текущее развертывание.
 4. Работа со сборкой (build job):
 Окружение (env): Определяет версию Hugo для использования.
+
 Установка Hugo: Скачивает и устанавливает HugoCLI (Command Line Interface).
+
 Установка Dart Sass: Устанавливает Dart Sass (используется для обработки CSS).
+
 Извлечение кода (Checkout): Извлекает исходныйкодсайта, включая подмодули (например, темы).
+
 Настройка Pages (Setup Pages): Настраивает GitHubPages.
-Установка Node.js зависимостей (Install Node.js dependencies): Устанавливает зависимости Node.js, еслиони есть.
+
+Установка Node.js зависимостей (Install Node.js dependencies): Устанавливает зависимости Node.js, если они есть.
+
 Сборка с Hugo (Build with Hugo): запускает Hugo для сборки сайта с оптимизацией(--minify) и указанием базового URL.
+
 Загрузка артефакта (Upload artifact): Загружает сгенерированный сайт (из папки public) в качестве артефакта.
+
 Работа с развертыванием (deploy job):
-Окружение (environment): Определяет окружение GitHub Pages и URL сайта.
-Зависимость (needs): Зависит от успешного завершениязадачи build.
-Развертывание на GitHub Pages (Deploy to GitHubPages): Развертывает артефакт на GitHub Pages.
+
+1. Окружение (environment): Определяет окружение GitHub Pages и URL сайта.
+2. Зависимость (needs): Зависит от успешного завершениязадачи build.
+3. Развертывание на GitHub Pages (Deploy to GitHubPages): Развертывает артефакт на GitHub Pages.
