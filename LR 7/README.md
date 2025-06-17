@@ -8,7 +8,9 @@
 
 :triangular_flag_on_post: адрес Cloud Function и скриншот кода функции:
 [https://functions.yandexcloud.net/d4ermk9vp1q3jt0pi37n]
-![]()
+
+![](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%207/cloud.png)
+
     ```
     import json
     import requests
@@ -72,8 +74,9 @@
             }
     ```
 
-:triangular_flag_on_post: описание API Gateway и скриншот;
-    ![]()
+:triangular_flag_on_post: описание API Gateway и скриншот:
+
+    ![](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%207/api.png)
     
     Спецификация
 
