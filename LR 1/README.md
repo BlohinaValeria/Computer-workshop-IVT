@@ -4,9 +4,9 @@
 2. Установка Hugo
 3. Установка темы Blowfish
 4. Редактирование сайта:
-:small_red_triangle: Добавление раздела «Обо мне»
-:small_red_triangle: Дизайн сайта
-:small_red_triangle: Добавление ссылки на github
+ :small_red_triangle: Добавление раздела «Обо мне»
+ :small_red_triangle: Дизайн сайта
+ :small_red_triangle: Добавление ссылки на github
 5. Развертывание на GitHub Pages сайта на Hugo с помощьюYAMLскрипта в GitHub Actions.
 
 ## Ссылка на сайт:
