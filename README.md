@@ -19,3 +19,11 @@
 ### Ключевые слова: REST / SoapUI / TestCase
 :small_orange_diamond:[перейти](https://github.com/BlohinaValeria/Computer-workshop-IVT/tree/main/SOAP_SERVER)
 
+## :white_check_mark: Тема 6 - Создание собственного веб-сервера, GET-запрос
+### Ключевые слова: HTTP / Flask / POST-запрос
+:small_orange_diamond:[перейти](https://github.com/BlohinaValeria/Computer-workshop-IVT/tree/main/LR%205)
+
+## :white_check_mark: Тема 7 - Yandex Cloud Functions
+### Ключевые слова: telegrambot / API Gateway / Cloud Functions
+:small_orange_diamond:[перейти](https://github.com/BlohinaValeria/Computer-workshop-IVT/tree/main/LR%206)
+
