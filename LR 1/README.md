@@ -83,10 +83,10 @@ uses: actions/deploy-pages@v4
 2. Разрешения (permissions): Дает workflow права на чтениеконтента репозитория и запись на GitHub Pages.
 3. Параллельность (concurrency): Позволяет только одномуразвертыванию за раз, но не отменяет текущее развертывание.
 4. Работа со сборкой (build job):
-:wavy_dash: Окружение (env): Определяет версию Hugo для использования.
-:wavy_dash: Установка Hugo: Скачивает и устанавливает HugoCLI (Command Line Interface).
-:wavy_dash: Установка Dart Sass: Устанавливает Dart Sass (используется для обработки CSS).
-:wavy_dash: Извлечение кода (Checkout): Извлекает исходныйкодсайта, включая подмодули (например, темы).
+:white_check_mark: Окружение (env): Определяет версию Hugo для использования.
+:white_check_mark: Установка Hugo: Скачивает и устанавливает HugoCLI (Command Line Interface).
+:white_check_mark: Установка Dart Sass: Устанавливает Dart Sass (используется для обработки CSS).
+:white_check_mark: Извлечение кода (Checkout): Извлекает исходныйкодсайта, включая подмодули (например, темы).
 :wavy_dash: Настройка Pages (Setup Pages): Настраивает GitHubPages.
 :wavy_dash: Установка Node.js зависимостей (Install Node.js dependencies): Устанавливает зависимости Node.js, еслиони есть.
 :wavy_dash: Сборка с Hugo (Build with Hugo): запускает Hugo для сборки сайта с оптимизацией(--minify) и указанием базового URL.
