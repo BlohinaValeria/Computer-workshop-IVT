@@ -72,7 +72,6 @@ https://functions.yandexcloud.net/d4ermk9vp1q3jt0pi37n
                 'statusCode': 500,
                 'body': f'Error: {str(e)}'
             }
-    ```
 
 :triangular_flag_on_post: описание API Gateway и скриншот:
 
