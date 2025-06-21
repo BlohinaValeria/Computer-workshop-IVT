@@ -135,18 +135,18 @@ if __name__ == "__main__":
                 list_files()
   ```
 # Создание ключа 
-![скриншот]()
+![скриншот](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%209/LAB.png)
 
 # Создание в бакете
-![пост запрос](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%206/test.png)
+![пост запрос](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%209/bucket1.png)
   
 # Отображение в бакете
-![пост запрос](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%206/test.png)
+![пост запрос](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%209/bucket2.png)
 
 # Удаление в бакете программа 
-![пост запрос](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%206/test.png)
+![пост запрос](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%209/bucket3.png)
 
 # Отображение в бакете 
-![пост запрос](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%206/test.png)
+![пост запрос](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%209/bucket4.png)
 
 
