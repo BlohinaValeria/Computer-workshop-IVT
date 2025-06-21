@@ -63,10 +63,10 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)  # Убираем ssl_context для Replit
   ```
 # Реализация шаблона 
-![скриншот](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%209/LAB.png)
+![скриншот](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%2010/replit.png)
 
 # Сгенерированное изображение 
-![скриншот](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%209/LAB.png)
+![скриншот](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%2010/generate.png)
 
 # Код программы с усложнениями
 ```python
@@ -113,5 +113,5 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
 ```
 # POST запрос через Insomnia (усложнение №3)
-[]()
+![](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%2010/инсомния.png)
 
