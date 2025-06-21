@@ -69,7 +69,7 @@ if __name__ == '__main__':
 ![скриншот](https://github.com/BlohinaValeria/Computer-workshop-IVT/blob/main/LR%209/LAB.png)
 
 # Код программы с усложнениями
-```
+```python
 from flask import Flask, request, jsonify, render_template, send_file
 from PIL import Image, ImageDraw
 import io
