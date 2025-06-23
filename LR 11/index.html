@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSA Decryptor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="file"] {
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 15px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            white-space: pre-wrap;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>RSA Decryptor</h1>
+    <div class="form-group">
+        <label for="key">Приватный ключ (PEM):</label>
+        <input type="file" id="key" accept=".pem,.key">
+    </div>
+    <div class="form-group">
+        <label for="secret">Зашифрованное сообщение (Base64):</label>
+        <input type="file" id="secret" accept=".txt,.bin">
+    </div>
+    <button onclick="decrypt()">Расшифровать</button>
+    <div id="loading" style="display: none;">Расшифровка...</div>
+    <div id="error" class="error"></div>
+    <div id="result"></div>
+
+    <script>
+        async function decrypt() {
+            const keyFile = document.getElementById("key").files[0];
+            const secretFile = document.getElementById("secret").files[0];
+            const resultDiv = document.getElementById("result");
+            const errorDiv = document.getElementById("error");
+            const loadingDiv = document.getElementById("loading");
+
+            errorDiv.textContent = "";
+            resultDiv.textContent = "";
+            loadingDiv.style.display = "block";
+
+            if (!keyFile || !secretFile) {
+                errorDiv.textContent = "Выберите оба файла!";
+                loadingDiv.style.display = "none";
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append("key", keyFile);
+            formData.append("secret", secretFile);
+
+            try {
+                const response = await fetch("http://localhost:5000/decypher", {
+                    method: "POST",
+                    body: formData,
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(errorData.error || "Ошибка сервера");
+                }
+
+                const decryptedText = await response.text();
+                resultDiv.textContent = decryptedText;
+            } catch (err) {
+                errorDiv.textContent = "Ошибка: " + err.message;
+            } finally {
+                loadingDiv.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
