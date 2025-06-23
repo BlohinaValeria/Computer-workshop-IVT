@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corgi World</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Arial:wght@400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #fff7e6 0%, #ffe5b4 100%);
+      font-family: 'Arial', sans-serif;
+      color: #6d4c1b;
+    }
+    h1, h2, h3, .navbar-brand {
+      font-family: 'Comic Sans MS', 'Comic Neue', cursive, sans-serif;
+      color: #e07a1b;
+    }
+    .navbar {
+      background: rgba(255, 236, 179, 0.95);
+      box-shadow: 0 2px 8px rgba(224, 122, 27, 0.08);
+    }
+    .hero {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 2rem;
+      box-shadow: 0 8px 32px 0 rgba(224, 122, 27, 0.18);
+      padding: 2rem;
+      margin-top: 5rem;
+      text-align: center;
+    }
+    .gallery-img {
+      border-radius: 1rem;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 2px 8px rgba(224, 122, 27, 0.12);
+    }
+    .gallery-img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 24px rgba(224, 122, 27, 0.22);
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 1.5rem;
+      box-shadow: 0 4px 16px 0 rgba(224, 122, 27, 0.10);
+      margin-bottom: 2rem;
+    }
+    .footer {
+      background: #e07a1b;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .social-icon {
+      color: #fff;
+      margin: 0 0.5rem;
+      font-size: 1.5rem;
+      transition: color 0.2s;
+    }
+    .social-icon:hover {
+      color: #ffe5b4;
+    }
+    @media (max-width: 768px) {
+      .hero {
+        margin-top: 2rem;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Corgi World</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#breed">Breed Info</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#care">Care Tips</a></li>
+          <li class="nav-item"><a class="nav-link" href="#fun">Fun Facts</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero container mt-5">
+    <img src="https://super.ru/image/rs::3840:::/quality:90/plain/s3:/super-static/prod/639eec0530a69860937d8ab1-1900x.jpeg" alt="Corgi Hero" class="img-fluid rounded mb-4" style="max-width: 350px;">
+    <h1>Welcome to Corgi World!</h1>
+    <p class="lead">Discover the charm, history, and care tips for the world’s most beloved short-legged pups.</p>
+  </section>
+
+  <!-- Breed Info -->
+  <section id="breed" class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card p-4">
+          <h2>Pembroke Welsh Corgi</h2>
+          <ul>
+            <li>Origin: Wales, UK</li>
+            <li>Tail: Short or docked</li>
+            <li>Temperament: Outgoing, playful, affectionate</li>
+            <li>Coat: Medium, straight, water-resistant</li>
+            <li>Famous for: Queen Elizabeth II’s favorite breed</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-4">
+          <h2>Cardigan Welsh Corgi</h2>
+          <ul>
+            <li>Origin: Wales, UK</li>
+            <li>Tail: Long, bushy</li>
+            <li>Temperament: Loyal, smart, reserved with strangers</li>
+            <li>Coat: Medium, dense, weatherproof</li>
+            <li>Distinctive: Larger, rounded ears and longer body</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-12">
+        <div class="card p-4">
+          <h3>Breed History</h3>
+          <ul>
+            <li>Both breeds originated as herding dogs in Wales over 1,000 years ago.</li>
+            <li>Pembrokes and Cardigans were recognized as separate breeds in the 1930s.</li>
+            <li>Known for their intelligence, agility, and affectionate nature.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="container my-5">
+    <h2 class="mb-4 text-center">Corgi Gallery</h2>
+    <div class="row g-3">
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="https://i.pinimg.com/736x/06/c7/63/06c763ecd3c5acd44aec32881ef441d6.jpg" class="img-fluid gallery-img" alt="Corgi 1">
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="https://i.pinimg.com/736x/d0/24/23/d02423a340e5387723dca4528711cd50.jpg" class="img-fluid gallery-img" alt="Corgi 2">
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="https://i.pinimg.com/736x/21/ab/7e/21ab7e04c08ce15d2b94c28d9edba996.jpg" class="img-fluid gallery-img" alt="Corgi 3">
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="https://i.pinimg.com/736x/7c/bf/de/7cbfde222485420169cd5c799699a7ba.jpg" class="img-fluid gallery-img" alt="Corgi 4">
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="https://i.pinimg.com/736x/b3/6e/83/b36e831915287f300c0537394ebd30b3.jpg" class="img-fluid gallery-img" alt="Corgi 5">
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="https://i.pinimg.com/736x/0c/a7/b4/0ca7b4505f018c2799ac7c59295e0f64.jpg" class="img-fluid gallery-img" alt="Corgi 6">
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="https://i.pinimg.com/736x/a9/5c/3e/a95c3e3b368ddc76ffcec63fa02d456f.jpg" class="img-fluid gallery-img" alt="Corgi 7">
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="https://avatars.mds.yandex.net/i?id=292c339069f7cee152ec162ca9ff8f7f_l-8310551-images-thumbs&n=13" class="img-fluid gallery-img" alt="Corgi 8">
+      </div>
+    </div>
+    <div class="text-end mt-2" style="font-size: 0.9rem; color: #a67c52;">Photos via <a href="https://unsplash.com/s/photos/corgi" target="_blank" rel="noopener noreferrer">Unsplash</a></div>
+  </section>
+
+  <!-- Care Tips -->
+  <section id="care" class="container my-5">
+    <div class="card p-4">
+      <h2>Care Tips for Corgi Owners</h2>
+      <h4>Diet</h4>
+      <p>Feed a balanced, high-quality dog food. Watch their weight—Corgis are prone to obesity!</p>
+      <h4>Exercise</h4>
+      <p>Daily walks and playtime are essential. Corgis are energetic and need both physical and mental stimulation.</p>
+      <h4>Grooming</h4>
+      <p>Brush their double coat weekly. Expect more shedding during seasonal changes.</p>
+      <h4>Health</h4>
+      <p>Regular vet checkups, vaccinations, and dental care are important. Watch for hip dysplasia and back issues.</p>
+    </div>
+  </section>
+
+  <!-- Fun Facts -->
+  <section id="fun" class="container my-5">
+    <div class="card p-4">
+      <h2>Fun Facts About Corgis</h2>
+      <ul>
+        <li>Queen Elizabeth II has owned more than 30 Corgis!</li>
+        <li>Corgis were bred to herd cattle and are surprisingly fast.</li>
+        <li>Their name means "dwarf dog" in Welsh.</li>
+        <li>They have a "fairy saddle" marking on their back, according to legend.</li>
+        <li>Corgis are known for their big personalities and expressive faces.</li>
+        <li>Both Pembroke and Cardigan Corgis have short legs but are very agile.</li>
+        <li>Corgis are social media stars thanks to their cuteness!</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div>Follow us:
+      <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+    </div>
+    <div style="font-size: 0.9rem;">&copy; 2025 Corgi World. All rights reserved.</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</body>
+</html>
